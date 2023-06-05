@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy-vertica-python" %}
-{% set version = "0.5.10" %}
+{% set version = "0.6.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sqlalchemy-vertica-python-{{ version }}.tar.gz
-  sha256: 993c5fa3ed7ac0c8475de73ddb751271ba1515a402ede523cc58ee12ea47cf83
+  sha256: 5cbebb9875e59366b9e3b4791ef7c2a8e45dbe460fd27687f3dc742dc058a024
 
 build:
   number: 0
